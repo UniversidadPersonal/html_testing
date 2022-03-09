@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li, a, button{
+    color: #edf0f1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* Space-between, pone X___XXX____X*/
+    /* flex-end, pone _______XXXX */
+    align-items: center;
+    padding: 30px 10%;
+    border-bottom: 3px solid #666;
+    background-color: #313131;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.nav{
+    cursor: pointer;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a:hover{
+    color: #0088a9;
+}
+
+
+  
+section {
+    flex: 1;
+    background-color: #101010;
+    padding: 15px;
+    color: white;
+    height: 85%;
+}
+
+
+
+.articulo{
+    padding: 10px 15px;
+}
+
+footer{
+    background-color: #313131;
+    height: 40px;
+    padding: 10px 40%;
+    
+}
+
+footer small{
+    color: white;
+    padding: 10px 15px;
+}
+
+.cuadros{
+    background: #101010;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.titulo h2{
+    font-size: 56px;
+    width: 1130px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cuadro{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.carta{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carta i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+/* Para poner el footer abajo del todo. 
+position: fixed;
+bottom: 0;
+*/
